@@ -743,11 +743,11 @@ h1 {
   border-style:solid;
   border-width:2px;
   
+  
   background: linear-gradient(to right, red, orange,bloodred);
   border-image: linear-gradient(to right,white, lightyellow) 30;
 border-width: 4px;
 border-style: solid;
-    box-shadow: 0 30px 40px rgba(0,0,0,.1);
 
   
  
@@ -845,3 +845,12 @@ ul{
   background:linear-gradient(white,lightyellow);
 }
 
+h1{
+  filter:drop-shadow(grey 4px 3px 2px);
+  filter:blur 10px;
+  font-weight:lighter;
+}
+
+li{
+  font-weight:lighter;
+}
