@@ -851,11 +851,15 @@ ul{
 }
 
 h1{
-  filter:drop-shadow(grey 4px 3px 2px);
-  filter:blur 10px;
+  
   font-weight:lighter;
     text-size:42px;
     font-size:42px;
+}
+
+.h1-title {
+    filter:drop-shadow(grey 4px 3px 2px);
+  filter:blur 10px;
 }
 
 li{
