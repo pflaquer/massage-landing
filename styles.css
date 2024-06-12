@@ -13,6 +13,8 @@
   color:white;
   width:128px;
   height:64px;
+    color:black;
+    filter:drop-shadow(5px 4px 10px);
 }
 
 .logo {
