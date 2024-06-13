@@ -4,6 +4,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    opacity:.95;
+transition:2s;
+}
 
 .btn{
   background-color:lightgreen;
