@@ -14,6 +14,13 @@
             }
         }
 
+sideNav.onclick = ()=> {
+        if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                alert('working');
+        }
+                
+
         $(document).ready(function() {
 
             $("a").on('click', function(event) {
